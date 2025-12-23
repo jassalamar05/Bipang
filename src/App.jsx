@@ -9,7 +9,7 @@ function App() {
   return (
     <>
    <section>
-          <div className='flex items-center justify-between  bg-cyan-800 h-max rounded-b-xl'>
+          <div className='flex items-center justify-between  bg-cyan-800 max-h-20 rounded-b-xl'>
 
             <div className='flex items-center  md:gap-2'>
               <p className='text-white  text-xs  md:font-semibold'>GET IT ON:</p>
