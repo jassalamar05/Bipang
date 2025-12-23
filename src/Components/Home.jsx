@@ -1,4 +1,5 @@
 import { useState } from "react"
+import icon from "../assets/img/Gemini_Generated_Image_h0q843h0q843h0q8.png";
 
 export default function Home(){
 
@@ -65,6 +66,72 @@ export default function Home(){
                 )}
             </section>
         </nav>
+
+
+        {/* new sectiion of image  */}
+        <main>
+            <section className="lg:grid grid-cols-2 md:block lg:px-20 lg:mt-10 px-5 max-h-screen">
+                <div className=" col-span-1 ">
+                    <div className="flex items-center lg:mt-10 lg:gap-10">
+                    <div className="bg-cyan-700 h-1 w-20"></div>
+                    <p className="lg:text-xs text-xs text-yellow-500 font-semibold">BBQ & GRILL RESTURANT</p>
+                    </div>
+
+                    <div className="mt-10">
+                        <p className="lg:text-5xl text-2xl font-bold">EAT BBQ With On <span className="italic font-serif text-yellow-500">New</span> <br /><span className="italic font-serif text-yellow-500">Place</span> With Our <br />Resturant</p>
+                    </div>
+
+                    <div className="text-sm lg:mt-10 mt-2 leading-relaxed text-wrap text-left">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto doloribus dolorem ipsum qui in dign voluptate. Cum temporibus minus vitae dolor molestiae eos repellendus officiis quam harum magni similique blanditiis deleniti, at voluptates corrupti voluptas itaque facere culpa labore. Sequi fugiat provident ducimus illo enim eius excepturi voluptatum aliquid.
+                    </div>
+
+                   
+                        <div className="flex lg:mt-10 mt-4">
+                        <div className="bg-yellow-500 h-22 w-2"></div>
+                        <p className="mx-5 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum itaque deserunt reprehenderit quae debitis ad quis cupiditate officia maiores accusantium dolores magni distinctio tenetur eligendi amet, quidem vero, in perferendis. <p className="mt-2 text-yellow-500 font-semibold text-sm">JOHN DOE</p>
+                        </p>
+                    </div>
+
+                    <div>
+                        <div className="flex items-center lg:mt-5 mt-3 gap-10">
+                            <i className="fa-solid fa-check text-yellow-500 text-xl"></i>
+                            <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, odit?</p>
+                        </div>
+
+                         <div className="flex items-center  gap-10">
+                            <i className="fa-solid fa-check text-yellow-500 text-xl"></i>
+                            <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, odit?</p>
+                        </div>
+
+                         <div className="flex items-center gap-10">
+                            <i className="fa-solid fa-check text-yellow-500 lg:text-xl"></i>
+                            <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, odit?</p>
+                        </div>
+                    </div>
+
+                    <div className="flex justify-center mt-2 gap-5 lg:gap-10">
+                        <input type="text" className=" px-5 lg:mt-5 lg:px-8 lg:py-3 border-[1px] border-gray-400 rounded-md" placeholder="Email Address" />
+                        <button className="bg-blue-700 px-10 lg:px-8 lg:py-3 lg:mt-5 rounded-md text-white text-sm">GET VOUCHERS</button>
+                    </div>
+
+
+                    </div>
+
+
+                {/* image  */}
+                <div className=" mt-5 lg:col-span-1">
+                   <img src={icon} alt=""  className="bg-cover h-96 md:h-[400px] lg:h-[500px] w-full"/>
+
+                    <div className="bg-cyan-800 lg:h-[25%] rounded-md">
+                        <div className="p-2 lg:p-10">
+                           <i className="fa-brands fa-google text-5xl text-yellow-500"></i>
+                           <p className="text-white text-2xl font-bold">4.8 GOOGLE Reviews</p>
+                           <p className="text-white pt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, minima!</p>
+                        </div>
+                     </div>
+                    </div>
+            </section>
+        </main>
         
         
         </>
