@@ -13,7 +13,7 @@ export default function Services(){
                     <div className="bg-cyan-700 lg:h-8 lg:w-8  h-4 w-4 md:h-6 md:w-6 absolute lg:mt-5 mt-2 rounded-md rotate-45"></div>
                 </div>
 
-                <p className="lg:text-4xl text-2xl font-bold font-serif md:text-center lg:mt-5 text-wrap">Our Services</p>
+                <p className="lg:text-4xl text-2xl font-bold font-serif lg:mt-5 text-wrap">Our Services</p>
                 <p className="md:text-center md:text-sm md:px-10 text-wrap text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, odit?. </p>
             </div>
         </section>
