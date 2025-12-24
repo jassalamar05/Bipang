@@ -120,7 +120,7 @@ export default function Home(){
 
                 {/* image  */}
                 <div className=" mt-5 lg:col-span-1">
-                   <img src={icon} alt=""  className="bg-cover h-96 md:h-[400px] lg:h-[500px] w-full"/>
+                   <img src={icon} alt="" className="bg-cove h-40 md:h-[200px] lg:h-[500px] w-full"/>
 
                     <div className="bg-cyan-800 lg:h-[25%] rounded-md">
                         <div className="p-2 lg:p-10">
