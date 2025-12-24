@@ -19,7 +19,7 @@ export default function Services(){
         </section>
       
         {/* cards */}
-        <section className="lg:flex gap-5 lg:justify-center lg:px-20 px-10 md:justify-center md:flex ">
+        <section className="lg:flex gap-5 lg:justify-center lg:px-20 px-10">
             {/* card1 */}
             <div className="flex mt-10">
                     <img src={icon} alt="" className="h-32 w-32 rounded-md absolute ml-20"/>
