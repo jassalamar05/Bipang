@@ -6,8 +6,8 @@ export default function Services(){
     return(
         <>
         <main className="mt-5 md:mt-20 lg:mt-20 sm:flex-col sm:items-center sm:justify-center md:flex  ">
-        <section>
-            <div className="lg:px-96 px-5 md:px-60 relative">
+            <section>
+            <div className="lg:px-80 px-5 md:px-60 relative">
                 <div className="flex justify-end mt-1 lg:mt-2">
                     <div className="bg-yellow-500 lg:h-8 lg:w-8 h-4 w-4 md:h-6 md:w-6 absolute rotate-45 rounded-md"></div>
                     <div className="bg-cyan-700 lg:h-8 lg:w-8  h-4 w-4 md:h-6 md:w-6 absolute lg:mt-5 mt-2 rounded-md rotate-45"></div>

@@ -66,7 +66,7 @@ export default function Home(){
                    <img src={icon} alt="" className=" object-cover w-full h-52 sm:h-[300px] md:h-[500px] lg:h-[600px] rounded-md"/>
                     </div>
 
-                    <div className="bg-cyan-800 rounded-md h-32 sm:h-28 md:h-36 lg:h-40">
+                    <div className="bg-cyan-800 rounded-md h-32 sm:h-28 md:h-36 lg:h-44">
                         <div className="p-2 lg:p-5">
                            <i className="fa-brands fa-google lg:text-5xl text-2xl  text-yellow-500"></i>
                            <p className="text-white lg:text-2xl text-xl font-bold">4.8 GOOGLE Reviews</p>
