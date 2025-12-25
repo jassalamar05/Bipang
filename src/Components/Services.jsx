@@ -5,7 +5,7 @@ export default function Services(){
 
     return(
         <>
-        <main className="mt-5 md:mt-40 lg:mt-20 sm:flex-col sm:items-center sm:justify-center md:flex  ">
+        <main className="mt-5 md:mt-20 lg:mt-20 sm:flex-col sm:items-center sm:justify-center md:flex  ">
         <section>
             <div className="lg:px-96 px-5 md:px-60 relative">
                 <div className="flex justify-end mt-1 lg:mt-2">
