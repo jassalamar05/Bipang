@@ -5,7 +5,7 @@ export default function Home(){
         <>
         {/* new sectiion of image  */}
         <main>
-            <section className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 mx-3 lg:px-10">
+            <section className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 mx-3 lg:px-10 md:gap-1">
                 {/* text area */}
 
                   <div className="lg:col-span-1 md:mt-5 lg:px-5"> 
