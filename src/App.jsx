@@ -5,16 +5,20 @@ import './App.css'
 import Header from './Components/Header'
 import Home from './Components/Home'
 import Services from './Components/Services'
+import Nav from './Components/Navbar'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-     <Header/>
-     <Home/>
-    <Services/>
 
+      {/* <Nav/> */}
+  
+    <Header/> 
+    <Home/> 
+    <Services/>
     </>
   )
 }

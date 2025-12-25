@@ -5,21 +5,21 @@ export default function Services(){
 
     return(
         <>
-        <main className="mt-96 sm:mt-28 lg:mt-20 md:mt-40">
+        <main className="mt-5 md:mt-40 lg:mt-20 sm:flex-col sm:items-center sm:justify-center md:flex  ">
         <section>
-            <div className="lg:px-96 px-10 md:px-60 relative">
+            <div className="lg:px-96 px-5 md:px-60 relative">
                 <div className="flex justify-end mt-1 lg:mt-2">
                     <div className="bg-yellow-500 lg:h-8 lg:w-8 h-4 w-4 md:h-6 md:w-6 absolute rotate-45 rounded-md"></div>
                     <div className="bg-cyan-700 lg:h-8 lg:w-8  h-4 w-4 md:h-6 md:w-6 absolute lg:mt-5 mt-2 rounded-md rotate-45"></div>
                 </div>
 
-                <p className="lg:text-4xl text-2xl font-bold font-serif lg:mt-5 text-wrap">Our Services</p>
+                <p className="lg:text-4xl text-2xl font-bold font-serif md:text-center lg:mt-5 text-wrap">Our Services</p>
                 <p className="md:text-center md:text-sm md:px-10 text-wrap text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, odit?. </p>
             </div>
         </section>
       
         {/* cards */}
-        <section className="lg:flex gap-5 lg:justify-center lg:px-20 px-10">
+        <section className=" sm:grid sm:items-center sm:justify-center grid justify-center lg:flex gap-5 lg:justify-center lg:px-20 px-10">
             {/* card1 */}
             <div className="flex mt-10">
                     <img src={icon} alt="" className="h-32 w-32 rounded-md absolute ml-20"/>
