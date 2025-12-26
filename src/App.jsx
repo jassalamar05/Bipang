@@ -5,7 +5,8 @@ import './App.css'
 import Header from './Components/Header'
 import Home from './Components/Home'
 import Services from './Components/Services'
-import Nav from './Components/Navbar'
+import About from './Components/About'
+
 
 
 function App() {
@@ -13,12 +14,10 @@ function App() {
 
   return (
     <>
-
-      {/* <Nav/> */}
-  
     <Header/> 
     <Home/> 
     <Services/>
+    <About/>
     </>
   )
 }

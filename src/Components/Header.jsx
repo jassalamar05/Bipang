@@ -8,22 +8,22 @@ export default function Header(){
     return(
         <>
            <section>
-          <div className='flex items-center justify-between bg-cyan-800 lg:max-h-20 rounded-b-xl lg:mx-10 mx-2 max-h-10'>
-            <div className='flex items-center gap-2 lg:gap-2'>
-              <p className='text-white  text-[10px]  md:font-semibold'>GET IT ON:</p>
-              <i className="fa-solid fa-play text-white bg-yellow-500 p-1 md:px-[10px] md:py-[8px] text-[10px] rounded"></i>
-              <i className="fa-brands fa-app-store-ios text-white bg-yellow-500 p-1 md:px-[10px] md:py-[8px] text-[10px] rounded"></i>
+          <div className='flex items-center justify-between bg-cyan-800 lg:max-h-20 md:max-h-12 rounded-b-xl lg:mx-10 mx-1 max-h-10'>
+            <div className='flex items-center gap-1 lg:gap-2'>
+              <p className='text-white  text-[8px] text-wrap sm:text-[10px]  md:font-semibold'>GET IT ON:</p>
+              <i className="fa-solid fa-play text-white bg-yellow-500 p-1 md:px-[10px] md:py-[8px] text-[8px] rounded"></i>
+              <i className="fa-brands fa-app-store-ios text-white bg-yellow-500 p-1 md:px-[10px] md:py-[8px] text-[8px] rounded"></i>
             </div>
 
-            <div className=' md:flex items-center gap-10 md:p-4 text-wrap p-2'>
-            <div className=' flex items-center gap-2'>
-              <i className="fa-solid fa-location-dot text-yellow-500 text-xs md:text-xl"></i>
-              <p className='text-white text-[10px] md:text-sm'>Neggepeng Village Gresik United</p>
+            <div className='md:flex items-center sm:flex sm:p-2 gap-10 md:p-4 text-wrap p-1'>
+            <div className=' flex items-center gap-1'>
+              <i className="fa-solid fa-location-dot text-yellow-500 text-[8px] md:text-xl"></i>
+              <p className='text-white text-[8px] sm:text-[10px] md:text-sm'>Neggepeng Village Gresik United</p>
             </div>
 
             <div className='  flex items-center gap-2'>
-              <i className="fa-solid fa-clock text-xs text-yellow-500 md:text-xl"></i>
-              <p className='text-white text-[10px] md:text-sm'>All Day 08 : 00 AM - 08 : 00 PM</p>
+              <i className="fa-solid fa-clock text-xs text-yellow-500 text-[8px] md:text-xl"></i>
+              <p className='text-white text-[8px] sm:text-[10px] md:text-sm'>All Day 08 : 00 AM - 08 : 00 PM</p>
             </div>
             </div>
           </div>
