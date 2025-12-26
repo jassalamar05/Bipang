@@ -4,7 +4,7 @@ export default function About(){
     return(
         <>
         <section >
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 px-1 lg:px-10 lg:gap-10 md:px-3 md:gap-3 sm:px-2 py-3 md:py-5 sm;py-3 sm:gap-2 lg:py-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 px-1 lg:px-10 lg:gap-10 md:px-3 md:gap-3 sm:px-2 py-3 md:py-5 sm;py-3 sm:gap-2 lg:py-16">
 
                 <div className="col-span-1 relative">
                     <div>

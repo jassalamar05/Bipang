@@ -4,7 +4,7 @@ export default function Home(){
     return(
         <>
         {/* new sectiion of image  */}
-        <main className=" px-1 md:px-2  lg:px-3">
+        <main className=" px-1 md:px-2  lg:px-3 lg:py-10">
             <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:px-2 md:gap-1">
                 {/* text area */}
 
@@ -20,18 +20,18 @@ export default function Home(){
                         <p className="lg:text-4xl md:text-3xl text-xl md:font-semibold lg:font-bold ">EAT BBQ With On <span className="italic font-serif text-yellow-500">New</span> <br /><span className="italic font-serif text-yellow-500">Place</span> With Our <br />Resturant</p>
                     </div> 
 
-                    <div className="text-xs md:text-sm lg:text-sm  lg:mt-2 mt-2 lg:leading-relaxed text-wrap">
+                    <div className="text-xs md:text-sm lg:text-sm  lg:mt-2 pt-3 lg:leading-relaxed text-justify text-wrap">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto doloribus dolorem ipsum qui
                          in dign voluptate. Cum temporibus minus vitae dolor molestiae eos
                     </div>  
 
                    
-                     <div className="flex">
+                     <div className="flex pt-4">
                         <div className="bg-yellow-500 lg:h-18 w-2 lg:h-22"></div>
-                        <p className="mx-3 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum itaque deserunt reprehenin perferendis. veniam eveniet impedit nemo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dol voluptatem facere excepturi! <p className="lg:py-4 text-yellow-500 font-semibold text-sm">JOHN DOE</p>
+                        <p className="mx-1 text-xs md:text-sm lg:text-sm text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum itaque deserunt reprehenin perferendis. veniam eveniet impedit nemo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dol voluptatem facere excepturi! <p className="lg:py-4 text-yellow-500 font-semibold text-sm">JOHN DOE</p>
                         </p>
                     </div>  
-            </div>
+                </div>
 
                     {/* anoterh */}
                     <div className="">

@@ -7,6 +7,8 @@ import Home from './Components/Home'
 import Services from './Components/Services'
 import About from './Components/About'
 import Delivery from './Components/DeliveryService'
+import Card from './Components/Cards'
+import BBQ from './Components/BBQMenu'
 
 
 
@@ -15,11 +17,13 @@ function App() {
 
   return (
     <>
-    <Header/> 
+    {/* <Header/> 
     <Home/> 
     <Services/>
     <About/>
     <Delivery/>
+    <Card/> */}
+    <BBQ/>
     </>
   )
 }
