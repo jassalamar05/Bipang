@@ -17,12 +17,12 @@ function App() {
 
   return (
     <>
-    {/* <Header/> 
+    <Header/> 
     <Home/> 
     <Services/>
     <About/>
     <Delivery/>
-    <Card/> */}
+    <Card/>
     <BBQ/>
     </>
   )
