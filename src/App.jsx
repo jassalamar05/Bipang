@@ -13,6 +13,7 @@ import Choice from './Components/Choice'
 import Testi from './Components/Testimonials'
 import Video from './Components/Video'
 import Blog from './Components/Blog'
+import Footer from './Components/Footer'
 
 
 
@@ -32,7 +33,7 @@ function App() {
    <Testi/>
     <Video/>
     <Blog/>
-    
+    <Footer/>
     </>
   )
 }
