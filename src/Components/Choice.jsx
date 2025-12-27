@@ -4,7 +4,7 @@ export default function Choice(){
     return (
         <>
         <section>
-            <div className="px-1 lg:px-0 md:px-0  lg:grid lg:grid-cols-2 md:grid md:grid-cols-2 lg:pt-20">
+            <div className="px-1 lg:px-0 md:px-0  lg:grid lg:grid-cols-2 md:grid md:grid-cols-2 lg:pt-20 pt-10">
 
                 <div className="col-span-1">
                       <img

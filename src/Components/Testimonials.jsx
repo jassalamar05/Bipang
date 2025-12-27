@@ -2,7 +2,7 @@ export default function Testi(){
     return (
         <>
         <section>
-        <div className="md:grid grid-cols-3 md:gap-3 pt-10 lg:px-20 md:px-14">
+        <div className="md:grid grid-cols-3 md:gap-3 pt-24 lg:px-20 md:px-14">
             <div>
             <div className=" items-center">
                 <div className="flex items-center gap-3 lg:gap-6">
