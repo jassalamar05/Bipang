@@ -9,6 +9,10 @@ import About from './Components/About'
 import Delivery from './Components/DeliveryService'
 import Card from './Components/Cards'
 import BBQ from './Components/BBQMenu'
+import Choice from './Components/Choice'
+import Testi from './Components/Testimonials'
+import Video from './Components/Video'
+import Blog from './Components/Blog'
 
 
 
@@ -24,6 +28,11 @@ function App() {
     <Delivery/>
     <Card/>
     <BBQ/>
+    <Choice/>
+   <Testi/>
+    <Video/>
+    <Blog/>
+    
     </>
   )
 }
