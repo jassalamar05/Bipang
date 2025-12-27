@@ -7,7 +7,7 @@ export default function Header(){
     }
     return(
         <>
-           <section>
+        <section>
           <div className='flex items-center justify-between bg-cyan-800 lg:max-h-20 md:max-h-12 rounded-b-xl lg:mx-10 mx-1 max-h-10'>
             <div className='flex items-center gap-1 lg:gap-2'>
               <p className='text-white  text-[8px] text-wrap sm:text-[10px]  md:font-semibold'>GET IT ON:</p>
