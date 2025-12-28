@@ -1,6 +1,6 @@
 import icon from "../assets/img/Gemini_Generated_Image_h0q843h0q843h0q8.png";
 
-export default function Home(){
+export default function Homes(){
     return(
         <>
         {/* new sectiion of image  */}
