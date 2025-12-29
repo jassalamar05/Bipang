@@ -118,9 +118,36 @@ export default function Headers(){
                   <div className="block gap-10 lg:hidden mt-6 p-4">
                 <a href="" className="hover:text-yellow-500 hover:shadow-lg block p-2">HOME</a>
                 <a href="" className="hover:text-yellow-500 hover:shadow-lg block p-2">ABOUT US</a>
-                <a href="" className="hover:text-yellow-500 hover:shadow-lg block p-2">RESTURANT</a>
-                <a href="" className="hover:text-yellow-500 hover:shadow-lg block p-2">SERVICES</a>
-                <a href="" className="hover:text-yellow-500 hover:shadow-lg block p-2">PAGES</a>
+
+
+                <div className=" hover:text-yellow-500 hover:shadow-lg block p-2 cursor-pointer group ">RESTURANT
+                <div className="relative ">
+                  <ul className="mt-2 hidden group-hover:block relative">
+                  <li className="hover:text-yellow-600 hover:bg-slate-100">Food</li>
+                </ul>
+                </div>
+                </div>
+                
+
+                <div className=" hover:text-yellow-500 hover:shadow-lg block p-2 cursor-pointer group ">
+                <div className="relative ">
+                  <ul className="mt-2 hidden group-hover:block relative">
+                  <li className="hover:text-yellow-600 hover:bg-slate-100">Food</li>
+                </ul>
+                </div>
+                </div>
+
+
+
+                <div className=" hover:text-yellow-500 hover:shadow-lg block p-2 cursor-pointer group ">Pages
+                <div className="relative ">
+                  <ul className="mt-2 hidden group-hover:block relative">
+                  <li className="hover:text-yellow-600 hover:bg-slate-100">Pages</li>
+                </ul>
+                </div>
+                </div>
+            
+
                  </div>
                 </div>
                 )}

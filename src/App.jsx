@@ -11,11 +11,10 @@ import Choice from './Components/Choice'
 import Testi from './Components/Testimonials'
 import Video from './Components/Video'
 import Blog from './Components/Blog'
-import Data from './JS/Data'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Homes from './Components/Home'
 import Masters from './Master/Master'
-import Head from './JS/Head'
+
 
 
 
@@ -41,7 +40,6 @@ function App() {
       </Routes>
     </BrowserRouter>
 
-    {/* <Data/> */}
     </>
   )
 }
