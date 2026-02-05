@@ -1,6 +1,8 @@
 import { useState } from "react"
+import { Link, useNavigate } from "react-router-dom"
 
 export default function Headers(){
+  const navigate=useNavigate()
     const[isOpen,setIsOpen]=useState(false)
     const handlesubmit=()=>{
         setIsOpen(!isOpen)
@@ -16,14 +18,16 @@ export default function Headers(){
             </div>
 
             <div className='md:flex items-center sm:flex sm:p-2 gap-10 md:p-4 text-wrap p-1'>
-            <div className=' flex items-center gap-1'>
-              <i className="fa-solid fa-location-dot text-yellow-500 text-[8px] md:text-xl"></i>
-              <p className='text-white text-[8px] sm:text-[10px] md:text-sm'>Neggepeng Village Gresik United</p>
-            </div>
-
-            <div className='  flex items-center gap-2'>
-              <i className="fa-solid fa-clock text-xs text-yellow-500 text-[8px] md:text-xl"></i>
-              <p className='text-white text-[8px] sm:text-[10px] md:text-sm'>All Day 08 : 00 AM - 08 : 00 PM</p>
+            <div>
+              <Link to="/">
+              <button className=" flex items-center
+                  px-4 py-1 text-xs md:text-md lg:text-base   rounded-lg
+              bg-yellow-400 hover:bg-cyan-500
+              text-white font-semibold
+              shadow-[0_0_15px_#22d3ee]
+              hover:rounded-3xl
+              transition">Logout</button>
+              </Link>
             </div>
             </div>
           </div>
@@ -39,23 +43,22 @@ export default function Headers(){
                     <p className="lg:text-3xl text-2xl font-bold font-serif">Bipang</p>
                 </div>
 
-                   
 
                 <div className="hidden lg:flex items-center md:gap-20 list-none font-semibold text-sm ">
 
-                    <a to={"/"}><a href="" className="text-yellow-500">HOME</a></a>
-                    <a to={"/about"}><a href="">ABOUT US</a></a>
+                    <Link to={"/home"}className="text-yellow-500">HOME</Link>
+                    <Link to={"/about"}>ABOUT US</Link>
 
                 {/* dropdown menu Resturant */}
                    <div className="relative group cursor-pointer flex gap-2"> <span>RESTAURANT</span>
                       <i className="fa-solid fa-angle-down text-xs"></i>
                       {/* dropdown */}
-                    <ul className="top-full p-2 w-32  absolute bg-gray-50 rounded shadow-lg hidden  group-hover:block">
+                    {/* <ul className="top-full p-2 w-32  absolute bg-gray-50 rounded shadow-lg hidden  group-hover:block">
                         <li className="px-5 py-1 block hover:bg-gray-200 text-yellow-500 text-sm">Our Menu</li>
                         <li className="px-5 py-1 block hover:bg-gray-200 text-yellow-500 text-sm">Our Menu</li>
                         <li className="px-5 py-1 block hover:bg-gray-200 text-yellow-500 text-sm">Our Menu</li>
                         <li className="px-5 py-1 block hover:bg-gray-200 text-yellow-500 text-sm">Our Menu</li>
-                    </ul>
+                    </ul> */}
                    </div>
 
 
@@ -63,12 +66,12 @@ export default function Headers(){
                     <div className="relative group cursor-pointer flex gap-2"><span>SERVICES</span>
                       <i className="fa-solid fa-angle-down text-xs"></i>
                       {/* dropdown */}
-                        <ul className="absolute p-1 top-full w-32 bg-gray-50 shadow-lg hidden  group-hover:block">
+                        {/* <ul className="absolute p-1 top-full w-32 bg-gray-50 shadow-lg hidden  group-hover:block">
                             <li className="text-sm px-5 py-1 hover:bg-gray-200 text-yellow-500">Our Services</li>
                             <li className="text-sm px-5 py-1 hover:bg-gray-200 text-yellow-500">Our Services</li>
                             <li className="text-sm px-5 py-1 hover:bg-gray-200 text-yellow-500">Our Services</li>
                             <li className="text-sm px-5 py-1 hover:bg-gray-200 text-yellow-500">Our Services</li>
-                        </ul>
+                        </ul> */}
 
                     </div>
                     
@@ -76,12 +79,12 @@ export default function Headers(){
                      <div className="relative group cursor-pointer flex gap-2"><span>PAGES</span>
                       <i className="fa-solid fa-angle-down text-xs"></i>
                       {/* dropdown */}
-                        <ul className="absolute p-1 top-full w-32 bg-gray-50 shadow-lg hidden  group-hover:block">
+                        {/* <ul className="absolute p-1 top-full w-32 bg-gray-50 shadow-lg hidden  group-hover:block">
                             <li className="text-sm px-7 py-1 hover:bg-gray-200 text-yellow-500">Our Blog</li>
                             <li className="text-sm px-7 py-1 hover:bg-gray-200 text-yellow-500">Our Blog</li>
                             <li className="text-sm px-7 py-1 hover:bg-gray-200 text-yellow-500">Our Blog</li>
                             <li className="text-sm px-7 py-1 hover:bg-gray-200 text-yellow-500">Our Blog</li>
-                        </ul>
+                        </ul> */}
 
                     </div>
                 </div>
@@ -109,15 +112,15 @@ export default function Headers(){
                     <p className=" text-2xl font-bold font-serif">Bipang</p>
                     </div>
 
-                      <div className="flex cursor-pointer">
+                    <div className="flex cursor-pointer">
                     <button onClick={handlesubmit}>
                     <i class="fa-regular fa-circle-xmark text-yellow-500 text-xl animate-spin transition-transform"></i>
                     </button>
                 </div>
                 </div>
                   <div className="block gap-10 lg:hidden mt-6 p-4">
-                <a href="" className="hover:text-yellow-500 hover:shadow-lg block p-2">HOME</a>
-                <a href="" className="hover:text-yellow-500 hover:shadow-lg block p-2">ABOUT US</a>
+                <Link to="/home" className="hover:text-yellow-500 hover:shadow-lg block p-2">HOME</Link>
+                <Link to="/about" className="hover:text-yellow-500 hover:shadow-lg block p-2">ABOUT US</Link>
 
 
                 <div className=" hover:text-yellow-500 hover:shadow-lg block p-2 cursor-pointer group ">RESTURANT
@@ -129,7 +132,7 @@ export default function Headers(){
                 </div>
                 
 
-                <div className=" hover:text-yellow-500 hover:shadow-lg block p-2 cursor-pointer group ">
+                <div className=" hover:text-yellow-500 hover:shadow-lg block p-2 cursor-pointer group ">SERVICES
                 <div className="relative ">
                   <ul className="mt-2 hidden group-hover:block relative">
                   <li className="hover:text-yellow-600 hover:bg-slate-100">Food</li>
@@ -139,7 +142,7 @@ export default function Headers(){
 
 
 
-                <div className=" hover:text-yellow-500 hover:shadow-lg block p-2 cursor-pointer group ">Pages
+                <div className=" hover:text-yellow-500 hover:shadow-lg block p-2 cursor-pointer group ">PAGES
                 <div className="relative ">
                   <ul className="mt-2 hidden group-hover:block relative">
                   <li className="hover:text-yellow-600 hover:bg-slate-100">Pages</li>
