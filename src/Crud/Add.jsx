@@ -7,6 +7,9 @@ export default function Add() {
   const [loading, setLoading] = useState(false)
   const [err, setErr] = useState(null)
 
+  
+  const API_URL = import.meta.env.VITE_API_URL
+
   const adding = async () => {
     if (!name.trim()) {
       setErr("Name is required")
@@ -17,7 +20,7 @@ export default function Add() {
       setLoading(true)
       setErr(null)
 
-      const res = await fetch("http://localhost:5000/api/add", {
+      const res = await fetch(`${API_URL}/api/add`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name }),

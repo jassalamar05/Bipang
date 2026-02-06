@@ -13,6 +13,7 @@ export default function Register() {
   const [err, setErr] = useState(null)
 
   const navigate = useNavigate()
+  const API_URL = import.meta.env.VITE_API_URL
 
   const register = async () => {
     if (!name || !email || !phone || !address || !password || !confirmPassword) {
@@ -29,7 +30,7 @@ export default function Register() {
       setLoading(true)
       setErr(null)
 
-      const res = await fetch("http://localhost:5000/auth/reg", {
+      const res = await fetch(`${API_URL}/auth/reg`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

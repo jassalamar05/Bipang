@@ -4,6 +4,7 @@ export default function Get() {
   const [data, setData] = useState([])
   const [loading, setLoading] = useState(false)
   const [err, setErr] = useState(null)
+  const API_URL = import.meta.env.VITE_API_URL
 
   useEffect(() => {
     const getting = async () => {
@@ -11,7 +12,7 @@ export default function Get() {
         setLoading(true)
         setErr(null)
 
-        const res = await fetch("http://localhost:5000/api/get")
+        const res = await fetch(`${API_URL}/api/get`)
         const result = await res.json()
         setData(result.data)
       } catch (error) {

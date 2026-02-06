@@ -9,6 +9,7 @@ export default function Update() {
   const [name, setName] = useState("")
   const [loading, setLoading] = useState(false)
   const [err, setErr] = useState(null)
+  const API_URL = import.meta.env.VITE_API_URL
 
   useEffect(() => {
     const getting = async () => {
@@ -16,7 +17,7 @@ export default function Update() {
         setLoading(true)
         setErr(null)
 
-        const res = await fetch("http://localhost:5000/api/get")
+        const res = await fetch(`${API_URL}/api/get`)
         const result = await res.json()
         setData(result.data)
       } catch {
@@ -64,7 +65,7 @@ export default function Update() {
         setLoading(true)
         setErr(null)
 
-    const res = await fetch(`http://localhost:5000/api/del/${id}`, {
+    const res = await fetch(`${API_URL}/api/del/${id}`, {
       method: "DELETE",
     })
     
