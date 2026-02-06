@@ -32,12 +32,12 @@ function App() {
 
   return (
     <>
- <BrowserRouter>
- <Toaster position="top-right" toastOptions={{
+   <BrowserRouter>
+    <Toaster position="top-right" toastOptions={{
     duration: 3000,
     style: { padding: "8px 16px",          // px-4 py-2
-   borderRadius: "0.5rem",       // rounded-lg
-      background: "#7c3aed",        // bg-purple-600  
+    borderRadius: "0.5rem",       // rounded-lg
+    background: "#7c3aed",        // bg-purple-600  
       color: "#ffffff",             // text-white
       boxShadow: "0 0 10pxpx #a855f7",// shadow glow transition: "all 0.3s ease",  // transition
     },
